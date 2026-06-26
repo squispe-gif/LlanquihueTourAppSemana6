@@ -54,25 +54,10 @@ LlanquihueTourApp/
 
 ## Instrucciones para ejecutar Main
 
-### Opción 1: Desde IntelliJ IDEA
-
-1. Abrir el proyecto en IntelliJ IDEA (`File > Open` y seleccionar la carpeta `LlanquihueTourApp`).
+1. Abrir IntelliJ IDEA y seleccionar la carpeta del proyecto `LlanquihueTourApp` (la misma que se descargó/clonó desde el repositorio de GitHub).
 2. Esperar a que Maven sincronice las dependencias (ícono de Maven en la esquina superior derecha, o `File > Reload Maven Project` si es necesario).
 3. Navegar hasta `src/main/java/com/duoc/semana6/ui/Main.java`.
 4. Hacer clic derecho sobre el archivo y seleccionar **Run 'Main.main()'**, o usar el botón ▶ verde junto al método `main`.
-
-### Opción 2: Desde la línea de comandos (con Maven)
-
-```bash
-mvn compile
-mvn exec:java
-```
-
-### Opción 3: Compilación manual (sin Maven)
-
-```bash
-javac -d out -encoding UTF-8 $(find src -name "*.java")
-java -cp out com.duoc.semana6.ui.Main
 ```
 
 ## Salida esperada por consola
